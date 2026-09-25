@@ -22,10 +22,6 @@
   <img src="docs/assets/images/uk/banner.png" alt="Matrix Solder Kit" width="720">
 </p>
 
-<p align="center">
-  <img src="docs/assets/images/uk/hero.jpg" alt="Матриця LED + драйвер MAX7219" width="720">
-</p>
-
 Набір Softera Lab для практики SMD-пайки на реальній **матриці 8×8 LED**. Після збірки плата показує демо-анімацію з **ATtiny** через драйвер **MAX7219**. Це **сторінка продукту та інструкція** для покупців і студентів [курсу пайки](https://www.softeralab.com/course-basic-soldering/).
 
 Це **не open-source проєкт**. Джерела схеми, Gerber і виробничі файли публічно не викладаються.
