@@ -1,0 +1,11 @@
+/* Softera Lab — Matrix Solder Kit SK-75 (Docusaurus-ready placeholder) */
+:root {
+  --ifm-color-primary: #f97316;
+}
+.brand-kicker {
+  color: var(--ifm-color-primary);
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  font-size: 0.85rem;
+}

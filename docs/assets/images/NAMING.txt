@@ -1,0 +1,12 @@
+Images for Matrix Solder Kit SK-75:
+
+images/
+  en/   English cards (.png) — README.md + docs/en/
+  uk/   Ukrainian cards (.png / .jpg) — README.uk.md + docs/
+
+Shared names:
+  banner, hero, ready
+  how-it-works, board-overview, board-back
+  kit-contents, kit-in-box, assembly-order
+  schematic-max7219, multiplexing, block-diagram
+  logo
