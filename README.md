@@ -22,10 +22,6 @@
   <img src="docs/assets/images/en/banner.png" alt="Matrix Solder Kit" width="720">
 </p>
 
-<p align="center">
-  <img src="docs/assets/images/en/hero.png" alt="LED matrix + MAX7219 driver" width="720">
-</p>
-
 Softera Lab kit for practicing SMD soldering on a real **8×8 LED matrix**. After assembly the board runs demo animations from an **ATtiny** MCU through a **MAX7219** driver. This repository is a **product page and assembly guide** for buyers and [soldering course](https://www.softeralab.com/course-basic-soldering/) students.
 
 This is **not an open-source hardware project**. Schematics source, Gerbers, and manufacturing files are not published.
