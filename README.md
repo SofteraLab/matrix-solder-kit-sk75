@@ -22,6 +22,10 @@
   <img src="docs/assets/images/en/banner.png" alt="Matrix Solder Kit" width="720">
 </p>
 
+<p align="center">
+  <img src="docs/assets/images/en/hero.png" alt="LED matrix + MAX7219 driver" width="720">
+</p>
+
 Softera Lab kit for practicing SMD soldering on a real **8×8 LED matrix**. After assembly the board runs demo animations from an **ATtiny** MCU through a **MAX7219** driver. This repository is a **product page and assembly guide** for buyers and [soldering course](https://www.softeralab.com/course-basic-soldering/) students.
 
 This is **not an open-source hardware project**. Schematics source, Gerbers, and manufacturing files are not published.
@@ -138,6 +142,18 @@ The board supports **additional matrices** through the expansion header. Connect
   <img src="docs/assets/images/en/ready.png" alt="Ready — Matrix Solder Kit" width="720">
 </p>
 
+## Firmware (ATtiny + MAX7219)
+
+Demo sketches for the on-board **ATtiny** live in [`firmware/`](firmware/):
+
+| Sketch | Description |
+| --- | --- |
+| [SK75_Demo](firmware/SK75_Demo/) | Heart / smile + rain, sparkle, snake, scanner |
+| [SK75_Patterns](firmware/SK75_Patterns/) | Static patterns + bouncing pixel |
+| [SK75_Scroll](firmware/SK75_Scroll/) | Scrolling text |
+
+Flash over the **ISP / RST** header (USBasp / Arduino as ISP). SoftSPI defaults: **DIN→PB0, CS→PB3, CLK→PB2**. Details: [firmware/README.md](firmware/README.md).
+
 ## Links
 
 | Item | Where |
@@ -148,6 +164,7 @@ The board supports **additional matrices** through the expansion header. Connect
 | Soldering LEDs | [docs/en/03-soldering.md](docs/en/03-soldering.md) |
 | Troubleshooting | [docs/en/04-troubleshooting.md](docs/en/04-troubleshooting.md) |
 | Circuit cards | [docs/en/05-circuit.md](docs/en/05-circuit.md) |
+| Firmware | [firmware/README.md](firmware/README.md) |
 | Website | [softeralab.com](https://www.softeralab.com/) |
 | Soldering course | [course page](https://www.softeralab.com/course-basic-soldering/) |
 | Contact | [Contacts](https://www.softeralab.com/our-contacts/) · support@softeralab.com |

@@ -22,6 +22,10 @@
   <img src="docs/assets/images/uk/banner.png" alt="Matrix Solder Kit" width="720">
 </p>
 
+<p align="center">
+  <img src="docs/assets/images/uk/hero.jpg" alt="Матриця LED + драйвер MAX7219" width="720">
+</p>
+
 Набір Softera Lab для практики SMD-пайки на реальній **матриці 8×8 LED**. Після збірки плата показує демо-анімацію з **ATtiny** через драйвер **MAX7219**. Це **сторінка продукту та інструкція** для покупців і студентів [курсу пайки](https://www.softeralab.com/course-basic-soldering/).
 
 Це **не open-source проєкт**. Джерела схеми, Gerber і виробничі файли публічно не викладаються.
@@ -138,6 +142,18 @@
   <img src="docs/assets/images/uk/ready.jpg" alt="Готово — Matrix Solder Kit" width="720">
 </p>
 
+## Прошивка (ATtiny + MAX7219)
+
+Демо-скечі для бортового **ATtiny** у [`firmware/`](firmware/):
+
+| Скетч | Опис |
+| --- | --- |
+| [SK75_Demo](firmware/SK75_Demo/) | Серце / смайл + дощ, іскри, змійка, сканер |
+| [SK75_Patterns](firmware/SK75_Patterns/) | Патерни + м’ячик |
+| [SK75_Scroll](firmware/SK75_Scroll/) | Біжучий рядок |
+
+Прошивка через **ISP / RST** (USBasp / Arduino as ISP). SoftSPI за замовчуванням: **DIN→PB0, CS→PB3, CLK→PB2**. Деталі: [firmware/README.uk.md](firmware/README.uk.md).
+
 ## Посилання
 
 | Пункт | Куди |
@@ -148,6 +164,7 @@
 | Пайка LED | [docs/03-soldering.md](docs/03-soldering.md) |
 | Діагностика | [docs/04-troubleshooting.md](docs/04-troubleshooting.md) |
 | Схема і блоки | [docs/05-circuit.md](docs/05-circuit.md) |
+| Прошивка | [firmware/README.uk.md](firmware/README.uk.md) |
 | Сайт | [softeralab.com](https://www.softeralab.com/) |
 | Курс пайки | [сторінка курсу](https://www.softeralab.com/course-basic-soldering/) |
 | Контакт | [Контакти](https://www.softeralab.com/our-contacts/) · support@softeralab.com |
